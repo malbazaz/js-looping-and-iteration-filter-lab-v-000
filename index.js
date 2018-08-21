@@ -15,5 +15,5 @@ return newArray;
 }
 
 function fuzzyMatch(drivers, string){
-  
+const newArray = [];
 }
