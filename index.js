@@ -45,3 +45,9 @@ return drivers.filter(function(st){
 return string === st.slice(0,lengthof);
  })
 }
+
+function matchName(drivers,string){
+return drivers.filter(function(st){
+  return st.name === string;
+})
+}
