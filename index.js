@@ -2,7 +2,7 @@
 // fingmatching take array of drivers
 // and string as arguments
 // return matching list of drivers
-function findMatching(drivers,string){
+function findMatching(array,string){
 const newArray;
 for(const st of drivers){
   let st1 = st.toLowerCase();
