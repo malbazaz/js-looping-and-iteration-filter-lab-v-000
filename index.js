@@ -4,7 +4,7 @@
 // return matching list of drivers
 function findMatching(array,string){
 const newArray;
-for(const st of drivers){
+for(const st of array){
   let st1 = st.toLowerCase();
   let st2 = string.toLowerCase();
   if(st1 === st2){
