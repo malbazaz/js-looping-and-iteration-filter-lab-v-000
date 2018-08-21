@@ -25,6 +25,7 @@ if(stLower === startLower){
   newArray.push(st);
 }
 }
+return newArray;
 }
 
 //function fuzzyMatch(drivers,string){
