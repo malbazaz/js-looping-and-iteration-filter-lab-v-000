@@ -29,19 +29,18 @@ function fuzzyMatch(drivers, string){
 const newArray = [];
 for(const st of drivers){
 const  lengthof = string.length;
-const start = st.slice(lengthof);
+const start = st.slice(0,lengthof);
 const startLower = start.toLowerCase();
 const stLower = st.toLowerCase();
 if(stLower === startLower){
-
   newArray.push(st);
 }
 }
 return newArray;
 }
 
-//function fuzzyMatch(drivers,string){
-//    drivers.filter(function(st){
-//    return string === st;
+function fuzzyMatch(drivers,string){
+return drivers.filter(function(st){
+return string === st;
 //  }
 //}
