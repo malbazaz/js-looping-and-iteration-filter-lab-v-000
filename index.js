@@ -14,6 +14,10 @@ for(const st of drivers){
 return newArray;
 }
 
+function fuzzyMatch(drivers, string){
+const newArray = [];
+}
+
 //function fuzzyMatch(drivers,string){
 //    drivers.filter(function(st){
 //    return string === st;
