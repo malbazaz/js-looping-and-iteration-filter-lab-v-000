@@ -10,7 +10,7 @@
 function findMatching(drivers,string){
 return drivers.filter(function(st){
     return string.toLowerCase() === st.toLowerCase();
-  })
+  }
 }
 
 //function findMatching(drivers,string){
