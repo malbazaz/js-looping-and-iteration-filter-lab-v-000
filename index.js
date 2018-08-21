@@ -13,3 +13,7 @@ for(const st of drivers){
 }
 return newArray;
 }
+
+function fuzzyMatch(drivers, string){
+  
+}
