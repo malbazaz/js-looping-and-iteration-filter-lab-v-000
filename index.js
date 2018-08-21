@@ -16,6 +16,9 @@ return newArray;
 
 function fuzzyMatch(drivers, string){
 const newArray = [];
+for(const st of drivers){
+  lengthof = string.length
+}
 }
 
 //function fuzzyMatch(drivers,string){
