@@ -2,6 +2,11 @@
 // fingmatching take array of drivers
 // and string as arguments
 // return matching list of drivers
-function findMatching(){
+function findMatching(drivers,string){
+const newArray;
+for(const st of drivers){
+  if(st===string){
 
+  }
+}
 }
