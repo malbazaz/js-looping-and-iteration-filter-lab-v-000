@@ -8,7 +8,7 @@
 //  }
 //}
 function findMatching(drivers,string){
-  drivers.filter(function(st){
+return  drivers.filter(function(st){
     return string.toLowerCase() === st.toLowerCase();
   })
 }
