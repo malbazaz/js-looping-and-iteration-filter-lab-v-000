@@ -40,7 +40,7 @@ return drivers.filter(function(st){
 // }
 
 function fuzzyMatch(drivers,string){
-  const lengthof = string.length
+const lengthof = string.length;
 return drivers.filter(function(st){
 return string === st.slice(0,lengthof);
  }
