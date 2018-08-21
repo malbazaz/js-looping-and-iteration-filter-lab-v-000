@@ -21,7 +21,9 @@ const  lengthof = string.length;
 const start = st.slice(lengthof);
 const startLower = start.toLowerCase();
 const stLower = st.toLowerCase();
-if(st === st)
+if(stLower === startLower){
+  newArray.push(st);
+}
 }
 }
 
