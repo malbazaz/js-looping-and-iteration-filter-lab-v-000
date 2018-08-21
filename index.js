@@ -5,7 +5,7 @@
 function findMatching(drivers,string){
 const newArray;
 for(const st of drivers){
-  if(st==string){
+  if(st.toLowerCase() === string.toLowerCase()){
     newArray.push(st);
   }
 }
