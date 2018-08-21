@@ -9,4 +9,5 @@ for(const st of drivers){
 
   }
 }
+return newArray;
 }
