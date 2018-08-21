@@ -8,22 +8,22 @@
 //  }
 //}
 function findMatching(drivers,string){
-return  drivers.filter(function(st){
+return drivers.filter(function(st){
     return string.toLowerCase() === st.toLowerCase();
   })
 }
 
-function findMatching(drivers,string){
-const newArray = [];
-for(const st of drivers){
-  let st1 = st.toLowerCase();
-  let st2 = string.toLowerCase();
-  if(st1 === st2){
-    newArray.push(st);
-  }
-}
-return newArray;
-}
+//function findMatching(drivers,string){
+//const newArray = [];
+//for(const st of drivers){
+//  let st1 = st.toLowerCase();
+//  let st2 = string.toLowerCase();
+//  if(st1 === st2){
+//    newArray.push(st);
+//  }
+// }
+// return newArray;
+// }
 
 function fuzzyMatch(drivers, string){
 const newArray = [];
