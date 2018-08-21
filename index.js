@@ -2,6 +2,17 @@
 // fingmatching take array of drivers
 // and string as arguments
 // return matching list of drivers
+//function fuzzyMatch(drivers,string){
+//    drivers.filter(function(st){
+//    return string === st;
+//  }
+//}
+function findMatching(drivers,string){
+  drivers.filter(function(st){
+    return string.toLowerCase() === st.toLowerCase();
+  })
+}
+
 function findMatching(drivers,string){
 const newArray = [];
 for(const st of drivers){
@@ -22,7 +33,7 @@ const start = st.slice(lengthof);
 const startLower = start.toLowerCase();
 const stLower = st.toLowerCase();
 if(stLower === startLower){
-  
+
   newArray.push(st);
 }
 }
